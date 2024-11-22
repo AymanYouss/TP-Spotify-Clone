@@ -1,6 +1,6 @@
 import SpotifyWebApi from 'spotify-web-api-js';
 
-const redirectURI = "http://127.0.0.1:3000/callback";
+const redirectURI = "https://storied-mochi-adc5d5.netlify.app/callback";
 
 const clientId = "8aeda35e613e46a9970623c444adaa6e";
 const clientSecret = "032c424a892147d5a369c670e5fd39d0";

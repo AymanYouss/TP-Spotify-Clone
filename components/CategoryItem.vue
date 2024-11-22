@@ -23,6 +23,11 @@ const randomColor = colors[Math.floor(Math.random() * colors.length)];
 </template>
 
 <style scoped>
+    body {
+        background-color: #fff;
+        color: #000;
+        font-family: Arial, sans-serif;
+    }
     .category {
         display: block;
         width: 100%;

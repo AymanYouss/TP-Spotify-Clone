@@ -7,7 +7,8 @@
 }
 
 body {
-    color: #fff;
+    color: black;
+    background-color: white !important;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -27,18 +28,18 @@ body {
 }
 
 .horizontal-list::-webkit-scrollbar-track {
-    background: #121212;
+    background: white;
 }
 
 .horizontal-list::-webkit-scrollbar-thumb {
-    background: #282828;
+    background: white;
     border-radius: 10px;
 }
 
 .horizontal-list::-webkit-scrollbar-thumb:hover {
-    background: #383838;
+    background: white;
 }
 
 .horizontal-list::-webkit-scrollbar-thumb:active {
-    background: #383838;
+    background: white;
 }

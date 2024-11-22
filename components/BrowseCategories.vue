@@ -24,10 +24,14 @@ const { data: categories, error } = await useAsyncData('categories', () => {
 </template>
 
 <style scoped>
+    body {
+        background-color: #fff !important;
+        color: #000;
+        font-family: Arial, sans-serif;
+    }
     .list {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         grid-gap: 1rem;
     }
-
 </style>

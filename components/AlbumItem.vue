@@ -25,6 +25,11 @@ const playAlbum = async (e) => {
 </template>
 
 <style scoped>
+    body {
+        background-color: #fff;
+        color: #000;
+        font-family: Arial, sans-serif;
+    }
     .album {
         background-color: #181818;
         display: flex;
@@ -69,8 +74,6 @@ const playAlbum = async (e) => {
     .play-btn svg {
         vertical-align: top;
     }
-
-
     .album-name {
         font-size: 16px;
         font-weight: 700;

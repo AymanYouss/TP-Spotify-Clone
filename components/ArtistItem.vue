@@ -26,6 +26,11 @@ const playArtist = async (e) => {
 
 
 <style scoped>
+    body {
+        background-color: #fff;
+        color: #000;
+        font-family: Arial, sans-serif;
+    }
     .artist {
         background-color: #181818;
         display: flex;
@@ -38,7 +43,6 @@ const playArtist = async (e) => {
     .artist:hover {
         background-color: #282828;
     }
-
     .artist-cover {
         width: 100%;
         aspect-ratio: 1 / 1;
@@ -71,7 +75,6 @@ const playArtist = async (e) => {
     .play-btn svg {
         vertical-align: top;
     }
-
     .artist h3 {
         margin-top: 16px;
     }
